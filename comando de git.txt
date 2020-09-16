@@ -16,3 +16,7 @@ git log historia.txt: para ver la historia del archivo
 git show historia.txt: me muestra la historia del archivo
 git diff: comparar las versiones
 git reset "codigo commit" --hard: permite restaurar una version anterior (viajar en el tiempo)
+git log --stat: ver el historial con mas detalle
+git checkout "codigo del commit" "nombre del archivo que quiero": para ver el archivo como estaba antes "OJO SI LE DOY UN COMMIT SE ELIMINA LOS ARCHIVO TRABAHADO DE HISTORIA"
+git checkout master historia.txt vuelvo en la actualidad
+
