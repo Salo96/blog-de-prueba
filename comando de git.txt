@@ -1,0 +1,18 @@
+comando de git
+
+git init: para iniciar un proyecto
+git status: para saber el estado de proyecto
+git add: "nombre del archivo": agrego al proyecto a git
+git add . agrega TODOS LOS ARCHIVO
+git commit -m "mensaje": envia el proyecto al repositorio
+
+-------- configurar nombre de usuario y correo----------
+git config --global user.name "Salomon Fabian"
+$ git config --global user.email "salomon@gmail.com"
+------------------------------------------------------
+
+cat "nombre del archivo": leer el contenido del archivo
+git log historia.txt: para ver la historia del archivo
+git show historia.txt: me muestra la historia del archivo
+git diff: comparar las versiones
+git reset "codigo commit" --hard: permite restaurar una version anterior (viajar en el tiempo)
