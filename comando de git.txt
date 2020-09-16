@@ -13,7 +13,7 @@ $ git config --global user.email "salomon@gmail.com"
 
 cat "nombre del archivo": leer el contenido del archivo
 git log historia.txt: para ver la historia del archivo
-git show historia.txt: me muestra la historia del archivo
+git show historia.txt: me muestra la historia del archivo y los cambio
 git diff: comparar las versiones
 git reset "codigo commit" --hard: permite restaurar una version anterior (viajar en el tiempo)
 git log --stat: ver el historial con mas detalle
