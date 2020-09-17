@@ -23,3 +23,8 @@ git commit -am "version mas actualizada": comando para agregar y guardar al repo
 
 
 git branch "nombre de la rama": comando para crear nueva rama
+git checkout "nombre de la rama": comando para moverme de rama (NOTA PRIMERO SE TIENE EJECUTAR ADD . Y EL COMMIT PARA PASAR DE RAMA)
+git branch: me muestra la rama donde estoy
+git merge CABECERA: LA RAMA CABECERA EN EL ULTIMO COMMIT PASARA SER AL MASTER (UNIR EL TRABAJO PERO SIEMPRE EN LA RAMA MASTER) (NOTA 2 MERGE = COMMIT)
+git remote add origin "la direccion de github": subir al archivo en github
+git push origin "master": ENVIO el proyecto a github de la rama "master"
