@@ -19,4 +19,7 @@ git reset "codigo commit" --hard: permite restaurar una version anterior (viajar
 git log --stat: ver el historial con mas detalle
 git checkout "codigo del commit" "nombre del archivo que quiero": para ver el archivo como estaba antes "OJO SI LE DOY UN COMMIT SE ELIMINA LOS ARCHIVO TRABAHADO DE HISTORIA"
 git checkout master historia.txt: vuelvo en la actualidad
+git commit -am "version mas actualizada": comando para agregar y guardar al repositorio (ad y commid nota para q funcione primero es el add .)
 
+
+git branch "nombre de la rama": comando para crear nueva rama
