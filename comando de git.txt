@@ -28,3 +28,28 @@ git branch: me muestra la rama donde estoy
 git merge CABECERA: LA RAMA CABECERA EN EL ULTIMO COMMIT PASARA SER AL MASTER (UNIR EL TRABAJO PERO SIEMPRE EN LA RAMA MASTER) (NOTA 2 MERGE = COMMIT)
 git remote add origin "la direccion de github": subir al archivo en github
 git push origin "master": ENVIO el proyecto a github de la rama "master"
+git pull origin "master":  extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local 
+git pull origin master --allow-unrelated-histories: funcionar la rama master junto el github (readme)
+
+
+
+ ----------------------ssh con git -----------------------
+
+ Generar una nueva llave SSH: (Cualquier sistema operativo)
+
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+Comprobar proceso y agregarlo (Windows)
+
+eval $(ssh-agent - s)
+ssh-add ~/.ssh/id_rsa
+Comprobar proceso y agregarlo (Mac)
+
+eval "$(ssh-agent -s)"
+
+---------------------------------------------------------------
+$ git remote set-url origin git@github.com:Salo96/blog-de-prueba.git: te permite crear, ver y eliminar conexiones a otros repositorios. Las conexiones remotas se asemejan más a marcadores que a enlaces directos con otros repositorios
+
+ANTES DE HACER UN COMMIT SE TRAE EL PROYECTO DEL SERVIDO CON PULL
+
+ git pull origin master: me traigo el origen del repositorio remoto y lo vamos a funcionar con la rama actual
